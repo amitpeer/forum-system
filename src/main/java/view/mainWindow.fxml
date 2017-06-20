@@ -8,7 +8,15 @@
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
+            fx:controller="view.Controller"
             prefHeight="400.0" prefWidth="600.0">
+    <children>
+
+    <Button fx:id="loginButton" layoutX="257.0" layoutY="238.0" mnemonicParsing="false" onAction="#pressButton" prefHeight="25.0" prefWidth="86.0" text="Login" />
+    <Button layoutX="257.0" layoutY="283.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0" text="registration" />
+    <TextArea layoutX="97.0" layoutY="125.0" prefHeight="75.0" prefWidth="422.0" text="Welcome to Forum System">
+
+    </TextArea>
+    </children>
 
 </AnchorPane>
