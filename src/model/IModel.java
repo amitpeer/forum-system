@@ -8,4 +8,6 @@ import controller.IController;
 public interface IModel {
 
     void setController(IController controller);
+
+
 }
